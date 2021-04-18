@@ -1,0 +1,15 @@
+Answers for questions:
+
+1. cat /etc/passwd | awk -F: '{print $1" - "$6}'
+
+2. command to create a file "touch data.exe && echo "This is Nilesh, I am Mad" >> data.txt"
+   command to replace the content "sed -i 's/Nilesh/Anant/g' data.txt"
+
+3. uniq -c access.log | awk '{print $2" - "$1}'
+   I have created acces.log file with some IP addreses.
+
+4. Check website.sh and website-detail.txt file
+
+5. Check tmp.sh file
+
+6. Check function.sh file. In which only + , - and division are working I am checking for multiplication.
